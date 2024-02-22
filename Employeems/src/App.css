@@ -1,0 +1,18 @@
+.display {
+    backdrop-filter: grayscale(100%);
+    color: white;
+    display: table;
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.flightdet {
+    display: table-row;
+}
+
+.flightdet>span {
+    display: table-cell;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+}
